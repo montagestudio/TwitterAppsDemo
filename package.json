@@ -2,11 +2,11 @@
     "name": "twitterappsdemo",
     "version": "0.1.0",
     "dependencies": {
-        "montage": "~0.15.0",
-        "digit": "~0.5.0"
+        "montage": "montagejs/montage#master",
+        "digit": "~0.6.0"
     },
     "devDependencies": {
-        "montage-testing": "~0.4.0"
+        "montage-testing": "~0.4.2"
     },
     "exclude": [
         "run-tests.html",
