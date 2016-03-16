@@ -74,17 +74,14 @@
 .Tweet-fullscreen {
     position: absolute;
     z-index: 99999;
-    right: 0;
-    top: 0;
-    width: 51px;
-    height: 51px;
+    right: 6px;
+    top: 6px;
+    width: 39px;
+    height: 39px;
     background: url(../../assets/fullscreen.png);
-    background-size: 39px 39px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: 39px 80px;
     cursor: pointer;
     outline: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .Tweet-component {
@@ -171,7 +168,7 @@
     height: auto;
     margin: 0;
     background: white;
-    z-index: 999;
+    z-index: 2;
 }
 
 .Tweet--fullscreen .Tweet-component {
@@ -180,5 +177,5 @@
 }
 
 .Tweet--fullscreen .Tweet-fullscreen {
-    background-image: url(../../assets/close.png);
+    background-position: 0 -40px;
 }
