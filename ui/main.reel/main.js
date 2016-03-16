@@ -1,16 +1,16 @@
-/**
- * @module ui/main.reel
- */
-var Component = require("montage/ui/component").Component;
+var Component = require("montage/ui/component").Component,
+    Data = require("core/data").Data;
 
 /**
  * @class Main
  * @extends Component
  */
-exports.Main = Component.specialize(/** @lends Main# */ {
-    constructor: {
-        value: function Main() {
-            this.super();
+exports.Main = Component.specialize({
+
+    enterDocument: {
+        value: function (isFirstTime) {
+            this.data = Data;
         }
     }
+
 });

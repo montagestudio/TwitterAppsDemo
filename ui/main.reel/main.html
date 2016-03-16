@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Main</title>
-
-    <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" type="text/css" href="main.css">
     <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": {"#": "main"}
-                }
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "repetition": {
+            "prototype": "montage/ui/repetition.reel",
+            "properties": {
+                "element": {"#": "repetition"}
+            },
+            "bindings": {
+                "content": {"<-": "@owner.data"}
+            }
+        },
+        "tweet": {
+            "prototype": "ui/tweet.reel",
+            "properties": {
+                "element": {"#": "tweet"}
+            },
+            "bindings": {
+                "data": {"<-": "@repetition:iteration.object"}
             }
         }
+    }
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="light" class="Main"></div>
+    <div data-montage-id="main" class="Main">
+        <div class="Main-header">
+            <div class="Main-findPeople"></div>
+            <div class="Main-logo"></div>
+            <div class="Main-search"></div>
+            <div class="Main-write"></div>
+        </div>
+        <div data-montage-id="repetition" class="Main-repetition">
+            <div data-montage-id="tweet"></div>
+        </div>
+        <div class="Main-footer">
+            <div class="Main-home"></div>
+            <div class="Main-notifications"></div>
+            <div class="Main-messages"></div>
+            <div class="Main-me"></div>
+        </div>
+    </div>
 </body>
 </html>

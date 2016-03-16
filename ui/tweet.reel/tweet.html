@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="tweet.css">
+    <script type="text/montage-serialization">
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "owner"},
+                "avatarElement": {"#": "avatar"},
+                "nameElement": {"#": "name"},
+                "usernameElement": {"#": "username"},
+                "timeElement": {"#": "time"},
+                "textElement": {"#": "text"},
+                "photoElement": {"#": "photo"},
+                "retweetsElement": {"#": "retweets"},
+                "likesElement": {"#": "likes"},
+                "componentWrapperElement": {"#": "componentWrapper"},
+                "placeholder": {"@": "component"}
+            }
+        },
+        "component": {
+            "prototype": "ui/placeholder.reel",
+            "properties": {
+                "element": {"#": "component"}
+            },
+            "bindings": {
+                "moduleId": {"<-": "@owner.data.component"},
+                "component.size": {"<-": "size"}
+            }
+        },
+        "fullscreen": {
+            "prototype": "montage/ui/button.reel",
+            "properties": {
+                "element": {"#": "fullscreen"}
+            },
+            "listeners": [
+                {
+                    "type": "action",
+                    "listener": {"@": "owner"}
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <div data-montage-id="owner" class="Tweet">
+        <div data-montage-id="avatar" class="Tweet-avatar"></div>
+        <div data-montage-id="name" class="Tweet-name"></div>
+        <div data-montage-id="username" class="Tweet-username"></div>
+        <div data-montage-id="time" class="Tweet-time"></div>
+        <div data-montage-id="text" class="Tweet-text"></div>
+        <div data-montage-id="photo" class="Tweet-photo"></div>
+        <div data-montage-id="componentWrapper" class="Tweet-componentWrapper">
+            <div data-montage-id="fullscreen" class="Tweet-fullscreen"></div>
+            <div data-montage-id="component" class="Tweet-component"></div>
+        </div>
+        <div class="Tweet-footer">
+            <div class="Tweet-reply"></div>
+            <div data-montage-id="retweets" class="Tweet-retweets"></div>
+            <div data-montage-id="likes" class="Tweet-likes"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,1 +1,120 @@
-.Main {}
+.Main-repetition {
+    position: absolute;
+    top: 44px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.Main-header,
+.Main-findPeople,
+.Main-logo,
+.Main-search,
+.Main-write,
+.Main-footer,
+.Main-home,
+.Main-notifications,
+.Main-messages,
+.Main-me {
+    background: url(../../assets/sprite.png);
+    background-size: 128px 400px;
+}
+
+.Main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+}
+
+.Main-findPeople {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 32px;
+    height: 32px;
+    background-position: 0 -50px;
+}
+
+.Main-logo {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    margin-left: -17px;
+    width: 32px;
+    height: 32px;
+    background-position: -32px -50px;
+}
+
+.Main-search {
+    position: absolute;
+    top: 6px;
+    right: 43px;
+    width: 32px;
+    height: 32px;
+    background-position: -64px -50px;
+}
+
+.Main-write {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 32px;
+    height: 32px;
+    background-position: -96px -50px;
+}
+
+.Main-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-position: 0 -300px;
+}
+
+.Main-home {
+    position: absolute;
+    bottom: 0;
+    left: 12.5%;
+    height: 45px;
+    width: 25%;
+    margin-left: -12.5%;
+    background-position: center -102px;
+    background-repeat: no-repeat;
+}
+
+.Main-notifications {
+    position: absolute;
+    bottom: 0;
+    left: 37.5%;
+    height: 45px;
+    width: 25%;
+    margin-left: -12.5%;
+    background-position: center -147px;
+    background-repeat: no-repeat;
+}
+
+.Main-messages {
+    position: absolute;
+    bottom: 0;
+    left: 62.5%;
+    height: 45px;
+    width: 25%;
+    margin-left: -12.5%;
+    background-position: center -192px;
+    background-repeat: no-repeat;
+}
+
+.Main-me {
+    position: absolute;
+    bottom: 0;
+    left: 87.5%;
+    height: 45px;
+    width: 25%;
+    margin-left: -12.5%;
+    background-position: center -237px;
+    background-repeat: no-repeat;
+}
