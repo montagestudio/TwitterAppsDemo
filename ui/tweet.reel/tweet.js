@@ -26,8 +26,10 @@ exports.Tweet = Component.specialize({
         value: function () {
             if (this.classList.contains("Tweet--fullscreen")) {
                 this.classList.remove("Tweet--fullscreen");
+                this.application.main.classList.remove("Main--fullscreen");
             } else {
                 this.classList.add("Tweet--fullscreen");
+                this.application.main.classList.add("Main--fullscreen");
             }
             this.placeholder.handleResize();
         }

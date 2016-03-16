@@ -119,3 +119,14 @@
     background-position: center -237px;
     background-repeat: no-repeat;
 }
+
+.Main--fullscreen .Main-footer,
+.Main--fullscreen .Main-header {
+    display: none;
+}
+
+.Main--fullscreen .Main-repetition {
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}

@@ -84,6 +84,7 @@
     background-position: center center;
     cursor: pointer;
     outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .Tweet-component {
@@ -170,7 +171,7 @@
     height: auto;
     margin: 0;
     background: white;
-    z-index: 2;
+    z-index: 999;
 }
 
 .Tweet--fullscreen .Tweet-component {
