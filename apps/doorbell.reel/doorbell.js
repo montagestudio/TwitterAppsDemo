@@ -59,7 +59,7 @@ exports.Doorbell = Component.specialize({
     },
 
     isMicroOn: {
-        value: false
+        value: true
     },
 
     handlePress: {
