@@ -74,8 +74,8 @@
 .Tweet-fullscreen {
     position: absolute;
     z-index: 999;
-    right: 6px;
-    top: 6px;
+    right: -8px;
+    bottom: -38px;
     width: 39px;
     height: 39px;
     background: url(../../assets/fullscreen.png);
@@ -177,5 +177,7 @@
 }
 
 .Tweet--fullscreen .Tweet-fullscreen {
+    top: 6px;
+    right: 6px;
     background-position: 0 -40px;
 }

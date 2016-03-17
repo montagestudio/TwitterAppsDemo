@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="doorbell.css">
+    <script type='text/javascript' src='tracker.js'></script>
+
+    <script type='text/javascript'>
+
+
+
+</script>
+
+    <script type="text/montage-serialization">
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "owner"},
+                "microphoneElement":{"#": "microphone"},
+                "timeElement": {"#": "time"}
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <div data-montage-id="owner" class="Doorbell foot_outer">
+        <div class=video_cont>
+            <video src="apps/doorbell.reel/ring.mp4" class=video autoplay=true webkit-playsinline></video>
+            <div class=bar >
+                <div  data-montage-id="time" class="time"></div>
+                <img data-montage-id="microphone" src="apps/doorbell.reel/microphone_white.svg" class="micro"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

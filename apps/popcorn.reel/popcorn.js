@@ -25,6 +25,9 @@ exports.Popcorn = Component.specialize({
     draw: {
         value: function () {
             if (this._size) {
+                // this.iframe.width = this._size.width;
+                // this.iframe.height = this._size.height;
+
             }
         }
     }

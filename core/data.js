@@ -1,15 +1,37 @@
 exports.Data = [
     {
+        "avatar": "ring.jpg",
+        "fullname": "Ring",
+        "username": "@ring",
+        "time": "25s",
+        "retweets": 0,
+        "likes": 0,
+        "text": null,
+        "photo": null,
+        "component": "apps/doorbell.reel"
+    },
+    {
+        "avatar": "adashofmoxie.jpg",
+        "fullname": "Jennifer Lai",
+        "username": "@adashofmoxie",
+        "time": "5m",
+        "retweets": 0,
+        "likes": 0,
+        "text": "Loved the Sound of Music. What a great image <a>twitter.com/historyinpix/stat...</a>",
+        "photo": "1.jpg"
+    },
+    {
         "avatar": "ricardo_fs.jpg",
         "fullname": "Ricardo F.",
         "username": "@ricardo_fs",
-        "time": "19m",
+        "time": "15m",
         "retweets": 0,
         "likes": 0,
         "text": "Can you beat my 27 points at Flappy Tweet?",
         "photo": null,
         "component": "apps/flappy.reel"
     },
+
     {
         "avatar": "ricardo_fs.jpg",
         "fullname": "Ricardo F.",
@@ -20,16 +42,6 @@ exports.Data = [
         "text": "10 lecciones para un periodista emprendedor <a>bit.ly/1YS0hlG</a> via @cdperiodismo",
         "photo": null,
         "component": "apps/popcorn.reel"
-    },
-    {
-        "avatar": "adashofmoxie.jpg",
-        "fullname": "Jennifer Lai",
-        "username": "@adashofmoxie",
-        "time": "19m",
-        "retweets": 0,
-        "likes": 0,
-        "text": "Loved the Sound of Music. What a great image <a>twitter.com/historyinpix/stat...</a>",
-        "photo": "1.jpg"
     },
     {
         "avatar": "juancarlosmohr.jpg",
@@ -48,9 +60,11 @@ exports.Data = [
         "time": "4h",
         "retweets": 54,
         "likes": 12,
-        "text": "Miles de refugiados dejan #Idomeni para intentar cruzar la frontera  #marchofhope #RefugeeGR <a>elmundo.es/internacional/201...</a>",
-        "photo": "3.jpg"
+        "text": "I scored 60%! Go @warriors!!",
+        "photo": null,
+        "component": "apps/warriors.reel"
     },
+    /*
     {
         "avatar": "palamago.jpg",
         "fullname": "Pablo H. Paladino",
@@ -61,6 +75,7 @@ exports.Data = [
         "text": "¿Private Social Network? <a>twitter.com/LeoMessifancl...</a>",
         "photo": null
     },
+    */
     {
         "avatar": "petapixel.jpg",
         "fullname": "PetaPixel",
@@ -131,16 +146,7 @@ exports.Data = [
         "text": "State of the art web development with React.js. - <a>github.com/ryanflorence/react-project</a>",
         "photo": null
     },
-    {
-        "avatar": "fotomovimiento.jpg",
-        "fullname": "Fotomovimiento",
-        "username": "@Fotomovimiento",
-        "time": "6h",
-        "retweets": 51,
-        "likes": 16,
-        "text": "Miles de personas marchando hacia la frontera. Quieren pasar. #OpenTheBorders #Idomeni #weDenounce",
-        "photo": "12.jpg"
-    },
+    /*
     {
         "avatar": "fotomovimiento.jpg",
         "fullname": "Fotomovimiento",
@@ -221,6 +227,7 @@ exports.Data = [
         "text": "Hola de ruta #10KPardoLGVictoria +info <a>pardo10ktour.com.ar</a>",
         "photo": "20.jpg"
     },
+    */
     {
         "avatar": "aerogeek.jpg",
         "fullname": "Sukhbinder",
@@ -231,6 +238,7 @@ exports.Data = [
         "text": "Etihad Airways displays B787 and B777 freighter at Indian Aviation Show - Arabian Aerospace <a>bit.ly/1UtpwKz</a> #india",
         "photo": null
     },
+    /*
     {
         "avatar": "lanacion.jpg",
         "fullname": "LA NACION",
@@ -241,6 +249,7 @@ exports.Data = [
         "text": "¿Cuánto cuesta ir a Cuba para ver a los @RollingStones? <a>bit.ly/1LOi4Ip</a>",
         "photo": "22.jpg"
     },
+    */
     {
         "avatar": "fiverr.jpg",
         "fullname": "Fiverr",
@@ -271,6 +280,7 @@ exports.Data = [
         "text": "DIRECTO entrando en Macedonia. Detención de fotoperiodista @d_tosidis. Nosotras estamos bien. <a>youtube.com/watch?v=Dk_o7qCzBxM...</a>",
         "photo": null
     },
+    /*
     {
         "avatar": "fotomovimiento.jpg",
         "fullname": "Fotomovimiento",
@@ -281,6 +291,7 @@ exports.Data = [
         "text": "Han detenido a varios periodistas españoles. No os podemos confirmar a quien pq no lo sabemos seguro. #Idomeni #RefugeesGr (5/5)",
         "photo": null
     },
+    */
     {
         "avatar": "estebannovo.jpg",
         "fullname": "Esteban Novo",
@@ -321,6 +332,7 @@ exports.Data = [
         "text": "South African football officials banned due to friendlies played prior to 2010 World Cup <a>dlvr.it/KnCXvj</a>",
         "photo": "30.jpg"
     },
+    /*
     {
         "avatar": "uniruniversidad.jpg",
         "fullname": "UNIR",
@@ -351,6 +363,7 @@ exports.Data = [
         "text": "Willie Mullins arrives at Cheltenham Festival as hordes put final touches to preparations… <a>dlvr.it/KnCXhc</a>",
         "photo": "33.jpg"
     },
+    */
     {
         "avatar": "mapbox.jpg",
         "fullname": "Mapbox",
@@ -631,6 +644,7 @@ exports.Data = [
         "text": "¿Cómo está quedando? #Starwars #8Bit #MSX",
         "photo": null
     },
+    /*
     {
         "avatar": "lumastudio.jpg",
         "fullname": "Luis Vallejo ",
@@ -641,6 +655,7 @@ exports.Data = [
         "text": "La cinemagrafía es la técnica que consiste en animar una fotografía fija dotándola de un sutil movimiento. <a>graffica.info/que-es-la-cinemagrafia/</a>",
         "photo": null
     },
+    */
     {
         "avatar": "nested_loops.jpg",
         "fullname": "Nested Loops",
@@ -651,6 +666,7 @@ exports.Data = [
         "text": "Our last $ 100.- contribution (from our JS What Are You Tee $$) went to @TomorrowLB.  ",
         "photo": null
     },
+    /*
     {
         "avatar": "ricardo_fs.jpg",
         "fullname": "Ricardo F.",
@@ -671,6 +687,7 @@ exports.Data = [
         "text": "Amazon quiere que nos identifiquemos con el rostro y paguemos con un guiño <a>bit.ly/22g3zkK</a> via @wwwhatsnew",
         "photo": null
     },
+    */
     {
         "avatar": "idar.jpg",
         "fullname": "Berts",
@@ -761,6 +778,7 @@ exports.Data = [
         "text": "Yet another game made with IntyBASIC: Pellets and Ghosts <a>atariage.com/forums/topic/25030...</a>",
         "photo": null
     },
+    /*
     {
         "avatar": "brianleroux.jpg",
         "fullname": "xnoɹǝʃ uɐıɹq",
@@ -791,6 +809,7 @@ exports.Data = [
         "text": "El nuevo album de @AstrixOfficial  está en todo!",
         "photo": "77.jpg"
     },
+    */
     {
         "avatar": "fromoxie.jpg",
         "fullname": "FroMoxie",
