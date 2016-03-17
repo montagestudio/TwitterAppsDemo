@@ -8,7 +8,7 @@ exports.Data = [
         "likes": 0,
         "text": "10 lecciones para un periodista emprendedor <a>bit.ly/1YS0hlG</a> via @cdperiodismo",
         "photo": null,
-        "component": "apps/size.reel"
+        "component": "apps/popcorn.reel"
     },
     {
         "avatar": "adashofmoxie.jpg",
