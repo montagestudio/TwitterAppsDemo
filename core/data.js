@@ -6,6 +6,17 @@ exports.Data = [
         "time": "19m",
         "retweets": 0,
         "likes": 0,
+        "text": "Can you beat my 27 points at Flappy Tweet?",
+        "photo": null,
+        "component": "apps/flappy.reel"
+    },
+    {
+        "avatar": "ricardo_fs.jpg",
+        "fullname": "Ricardo F.",
+        "username": "@ricardo_fs",
+        "time": "19m",
+        "retweets": 0,
+        "likes": 0,
         "text": "10 lecciones para un periodista emprendedor <a>bit.ly/1YS0hlG</a> via @cdperiodismo",
         "photo": null,
         "component": "apps/popcorn.reel"

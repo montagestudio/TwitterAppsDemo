@@ -1,0 +1,112 @@
+.Flappy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.Flappy * {
+    image-rendering: -moz-pixelated;
+    image-rendering: -o-pixelated;
+    image-rendering: -webkit-pixelated;
+    image-rendering: pixelated;
+}
+
+.Flappy-wrapper {
+    position: absolute;
+    height: 192px;
+    width: 200px;
+    background: #71c5cf;
+    overflow: hidden;
+    transform-origin: 0 0 0;
+    border-radius: inherit;
+}
+
+.Flappy-play,
+.Flappy-clouds,
+.Flappy-buildings,
+.Flappy-trees,
+.Flappy-ground,
+.Flappy-bird,
+.Flappy-column,
+.Flappy-column:after {
+    background: url(flappy.png);
+    background-size: 140px 256px;
+}
+
+.Flappy-play {
+    position: absolute;
+    background-position: -57px 0;
+    width: 44px;
+    height: 22px;
+    left: 50%;
+    top: 50%;
+    margin-left: -23px;
+    margin-top: -9px;
+    transform: scale3d(1, 1, 1);
+}
+
+.Flappy-clouds {
+    position: absolute;
+    bottom: 41px;
+    left: 0;
+    background-position: 0 -170px;
+    height: 28px;
+    width: 100%;
+}
+
+.Flappy-buildings {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    background-position: 0 -149px;
+    height: 19px;
+    width: 100%;
+}
+
+.Flappy-trees {
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    background-position: 0 -132px;
+    height: 16px;
+    width: 100%;
+}
+
+.Flappy-ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-position: 0 -200px;
+    height: 24px;
+    width: 100%;
+}
+
+.Flappy-bird {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: -28px 0;
+    width: 29px;
+    height: 22px;
+}
+
+.Flappy-column {
+    position: absolute;
+    top: -131px;
+    left: 0;
+    width: 26px;
+    height: 131px;
+}
+
+.Flappy-column:after {
+    content: "";
+    position: absolute;
+    top: 179px;
+    left: 0;
+    width: 26px;
+    height: 131px;
+}
